@@ -22,7 +22,7 @@ title: redseacomputing
 email: redseacomputing@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   redseacomputing is a pseudonym for an enthusiast of programming techniques especially with Java technologies.
-baseurl: "/redseacomputing.github.io" # the subpath of your site, e.g. /blog
+baseurl: "redseacomputing.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: redseacomputing
 github_username:  redseacomputing
