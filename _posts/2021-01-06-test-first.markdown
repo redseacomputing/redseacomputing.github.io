@@ -81,7 +81,8 @@ Developers are expensive. Customers want get things done. Understandable.
 But no one asks wether the product unit was "done" at 4:30 pm or was 
 done at 4:45 pm. 
 Everyone knows what happens 6 months 
-later when no one knows how to implement the next functionality and things 
+later when no one knows how to implement 
+a new feature and things 
 getting NOT done. Understandable, too.
 
 >There is no time anymore because there are/were no tests.
