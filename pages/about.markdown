@@ -14,7 +14,7 @@ instead of doing it correct.
 From there on, i was an enemy of the "copy & paste"-programming style.
 
 Instead of flying the mouse over production code for guessing the next steps,
-I have decided to develop my solutions test driven.
+I have decided to develop my solutions test-driven.
 
 After knowing the basics of that, I began to refactor my code.
 Therefore, in my oppinion solid development is based on test driven 
@@ -22,5 +22,3 @@ development and Clean Code.
 
 Nowadays I introduce myself into refactoring tactics to make 
 code maintanable, clear and testable.
-
-Because code is technology.
