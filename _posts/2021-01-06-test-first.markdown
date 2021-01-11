@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test first is not a crime"
+title:  "Test-first is not a crime"
 date:   2021-01-06 18:19:46 +0100
 categories: tdd java
 permalink: /:year/:title
