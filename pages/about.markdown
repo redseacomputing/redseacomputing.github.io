@@ -17,7 +17,7 @@ Instead of flying the mouse over production code for guessing the next steps,
 I have decided to develop my solutions test-driven.
 
 After knowing the basics of that, I began to refactor my code.
-Therefore, in my oppinion solid development is based on test driven 
+Therefore, in my opinion, solid development is based on test-driven 
 development and Clean Code. 
 
 Nowadays I introduce myself into refactoring tactics to make 
