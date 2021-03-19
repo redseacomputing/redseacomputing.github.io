@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test driven development is not a crime part 2- The structure of an unit test"
+title:  "Test driven development is not a crime-part 2"
 date:   2021-03-20 00:02:00 +0100
 categories: tdd java
 permalink: /:year/:title
@@ -12,16 +12,16 @@ permalink: /:year/:title
 
 Every unit test contain at least three parts:
 
-####Arrange
+#### Arrange
 Arrange gets everything ready to perform the test. 
 This could be declaring variables, building required objects or 
 setting the state of a unit based on the circumstances you want to 
 test.
 
-####Act
+#### Act
 Act performs the action that you are testing on the unit.
 
-####Assert
+#### Assert
 Assert checks to see that the action performed correctly. You want to check that 
 either the return value of a method call is expected, or the state of an object is as expected.
 
@@ -33,10 +33,13 @@ Let's use a DVD-library example.
 * Ask the question first (Is the movie in the catalogue of the library?)
 
 
+
     @Test
     public void donateMovie(){
         assertTrue(library.getCatalogue().contains(movie));
     }
+
+
 
 * Working back from the setup that asks the question <br>
   
@@ -52,9 +55,11 @@ Okay, you need a library here, so lets declare it
 * Create the production class Library with IDE from your test case
 
 
+
     public class Library {
     
     }
+
 
 
 * Okay, you have to implement the method getCatalogue() from your test case
@@ -77,6 +82,7 @@ Okay, you need a library here, so lets declare it
         assertEquals(true, library.getCatalogue().contains(movie));
     }
 
+
 * Now it comes to an action in your test. You have to add it on the library with a namefull method.
 
 
@@ -87,6 +93,7 @@ Okay, you need a library here, so lets declare it
         library.donate(movie);
         assertEquals(true, library.getCatalogue().contains(movie));
     }
+
 
 * And you have to declare that method donate(Movie movie) with the IDE again in your production code.
 
@@ -115,7 +122,7 @@ I thought: "Oh, I havent actually that what I need to make the assertion".
 So you have to work backwards from the assertion.
 It is all about the question you want to ask and this is the most important thing about the test.
 
->Its (psychologically) mentally a good way from a design point of view to start from the WHAT (here is the question) working backwards to the HOW (here is the implementation).
+>Its mentally a good way from a design point of view to start from the WHAT (here is the question) working backwards to the HOW (here is the implementation).
 
 ### Hint 2: See your test fail
 
@@ -156,11 +163,11 @@ Experienced programmers mentioned about test suites with all passing tests but t
 If you are asking high quality questions and check your own tests you have more confidence in your unit tests
 and they are going forward as regression tests too.
 
-The reader is invited to let the test pass.
+The interested reader is invited to let the test pass.
 
-When you are looking at our test suite now, there is a little code smell. You find here a so called message chain.
+When you are looking at your test suite now, there is a little code smell. You find here a so called message chain.
 Thats when you're navigating through a relationship to one object to the next object in the chain.
-In this case we have unencapsulated this list in our assertion. Your client code knows that it's a collection
+In this case you have unencapsulated this list in your assertion. Your client code knows that it's a collection
 and thats a little messy. We like encapsulation and are big fans of it.
 So lets encapsulate this-> extract a method of it and call it contains() and move it to the Library class.
 Rerun your tests as soon as your refactoring.
@@ -209,4 +216,4 @@ Every test should do just one thing, so create a separated one and let it run.
     
     }
 
-This is part two of the beginner series for TDD. Here is part three.
+This is part two of the TDD kickstart beginner series. Here is part three.

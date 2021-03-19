@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test driven development is not a crime part 3- What tests to write"
+title:  "Test driven development is not a crime-part 3"
 date:   2021-03-20 00:03:00 +0100
 categories: tdd java
 permalink: /:year/:title
@@ -25,7 +25,7 @@ Customers can only order titles that are in stock.
 
 You can use your specification, to create a meaningful testlist to work with it afterwards.
 
-###Testlist:
+### Testlist:
 
 Buy a CD
 - [ ] CD is in stock - stock count is reduced by quantity
@@ -47,4 +47,4 @@ you're testlist as a checklist that comes directly from the specification.
 ### Hint: Obvious implementations 
 During you'r TDD-cycle, it is not necessary to triangulate many rotations on obvious implementation details.
 
-This is part three of the beginner series for TDD. Here is part four.
+This is part three of the TDD kickstart beginner series. Here is part four.
