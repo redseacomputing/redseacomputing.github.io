@@ -10,16 +10,16 @@ permalink: /:year/:title
 ## Relationship between Duplication and Design
 
 Duplicate code is the opposite of reuse. When you remove duplication, you end up
-introducing reusable abstractions. From a design point of view
+introducing reusable abstractions. From a design point of view,
 duplication in your code is very interesting.
 
 >You should pay particular attention to that when you're refactoring after passing each test.
 
 ## When do we remove the duplication?
 It's important not to jump in too early. The risk when you refactor code to
-create abstractions is that you end up introducing the wrong abstractions.
+create abstractions, is that you end up introducing the wrong abstractions.
 That happen very often because we haven't seen enough examples to really just
-sort to see what the pattern is here, yet we have to see the patterns.
+sort to see what the pattern is here. Yet we have to see the patterns.
 
 You operate on a design principal called "The rule of three".
 It helps you to see the mentioned patterns and it helps you to not getting to late to eliminate duplication.
@@ -27,6 +27,8 @@ It helps you to see the mentioned patterns and it helps you to not getting to la
 >More duplication is harder to eliminate
 
 So you have to wait for **exactly** three duplications and check what's going on.
+
+### Hint: Eliminate obvious duplication and don't wait to get more of it.
 
 ## Handle duplication with parameterized tests
 
