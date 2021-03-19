@@ -113,7 +113,7 @@ And you have to declare that method donate(Movie movie) with the IDE again in yo
 You are referencing things that don't exist yet, and then you're working your way backwards
 from the references to the declaration.
 The reference come first and this is very much the essence of test driven development.
-You `refer to things` in a test and that forces you to declare it. Therefor it is `test driven` in a very strict way.
+You **refer to things** in a test and that forces you to declare it. Therefor it is **test driven** in a very strict way.
 And that means that you end up with the exact set up, that you need to ask the question that you want to ask.
 
 Sometimes I have written the set up and then got to write the assertion where
@@ -152,8 +152,8 @@ So for now let's just return an empty ArrayList.
     }
 
 When you are run the test again, the test result is saying you now an Assertion-Error. So thats the point of hint 2:
->Before you write the code to pass the test, `see` the test assertion fail.
->You are `testing your test` before you make it pass
+>Before you write the code to pass the test, *see the test fail**.
+>**You are testing your test** before you make it pass
 
 You can going forward and have confidence in your unit tests, if someone broke this code as they change it in the future,
 this test would actually catch it if this part of it got broken.
@@ -167,6 +167,8 @@ The interested reader is invited to let the test pass.
 
 When you are looking at your test suite now, there is a little code smell. You find here a so called message chain.
 Thats when you're navigating through a relationship to one object to the next object in the chain.
+This breaks a principle called "The law of demeter".
+
 In this case you have unencapsulated this list in your assertion. Your client code knows that it's a collection
 and thats a little messy. We like encapsulation and are big fans of it.
 So lets encapsulate this-> extract a method of it and call it contains() and move it to the Library class.

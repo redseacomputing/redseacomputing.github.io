@@ -10,7 +10,7 @@ permalink: /:year/:title
 
 # Tests to write
 
-In the last blog of this series, we mentioned about the fact that we have to ask the right questions.
+In the previous post, I have mentioned that we have to ask the right questions.
 
 Testlist is a pattern from the book "Test-Driven Development by Example" from Kent Beck.
 You can use your search engine of choice to look forward for more great sources of this kind by typing 

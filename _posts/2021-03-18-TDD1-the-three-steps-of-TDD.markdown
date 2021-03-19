@@ -38,8 +38,8 @@ And start with the simplest test case you imagine of the ShoppingBasketTest clas
 Thats how TDD works. You dont write a Production-Code class.
 First, you write a test that use a (non-existent) ProductionCode class,
 and then you implement that class.
-With each test, you make just a few design decisions `and then you
-write the code that this test requires`.
+With each test, you make just a few design decisions **and then you
+write the code that this test requires.**
 
 Now, from the test case, you can implement the simplest way to getting it.
 
@@ -53,11 +53,11 @@ Here are some following tests for the interested reader as an exercise.
 * totalOfSingleItem
 * totalOfTwoItems
 
-Hint: If something changes, look first at your `test code`, don't edit it in your production code unnecessarily!
+Hint: If something changes, look first at your **test code**, don't edit it in your production code unnecessarily!
 
 > If you are looking at your tests that runs correctly, these are your specification steps of your software solution that are up and running now.
 
 After each iteration, you should come back to your TestSuite and maintain your test code and/or your production code little bit, if necessary.
-This is the third step of the TDD cycle. For further reading you can check my refactoring series later.
+This is the third step of the TDD cycle. For further reading you can check my kickstart refactoring series later.
 
-This is part one of the TDD kickstart beginner series. Here is [part 2](https://redseacomputing.github.io/2021/TDD1-the-three-steps-of-TDD).
+This is part one of the TDD kickstart beginner series. Here is [part 2](https://redseacomputing.github.io/2021/TDD2-structure-of-unit-tests).
