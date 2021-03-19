@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TDD is not a crime-Duplication and the rule of three"
-date:   2021-01-06 18:19:46 +0100
+title:  "Test driven development is not a crime-part 4"
+date:   2021-03-20 00:04:00 +0100
 categories: tdd java
 permalink: /:year/:title
 ---
