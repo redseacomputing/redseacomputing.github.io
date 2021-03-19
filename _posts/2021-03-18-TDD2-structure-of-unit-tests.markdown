@@ -30,7 +30,7 @@ Here are 3 hints for effectiveness and sustainability.
 Let's use a DVD-library example.
 
 ### Hint 1: Don't make the set up first. Start with the assertion in the tests.
-* Ask the question first (Is the movie in the catalogue of the library?)
+Ask the question first (Is the movie in the catalogue of the library?)
 
 
 
@@ -41,7 +41,7 @@ Let's use a DVD-library example.
 
 
 
-* Working back from the setup that asks the question <br>
+Working back from the setup that asks the question <br>
   
 Okay, you need a library here, so lets declare it
 
@@ -52,7 +52,7 @@ Okay, you need a library here, so lets declare it
         assertTrue(library.getCatalogue().contains(movie));    
     }
 
-* Create the production class Library with IDE from your test case
+Create the production class Library with IDE from your test case
 
 
 
@@ -62,7 +62,7 @@ Okay, you need a library here, so lets declare it
 
 
 
-* Okay, you have to implement the method getCatalogue() from your test case
+Okay, you have to implement the method getCatalogue() from your test case
 
 
     public class Library {
@@ -72,7 +72,7 @@ Okay, you need a library here, so lets declare it
         }
     }
 
-* Create the production class Movie with IDE from test case and maintain your test specification
+Create the production class Movie with IDE from test case and maintain your test specification
 
 
     @Test
@@ -83,7 +83,7 @@ Okay, you need a library here, so lets declare it
     }
 
 
-* Now it comes to an action in your test. You have to add it on the library with a namefull method.
+Now it comes to an action in your test. You have to add it on the library with a namefull method.
 
 
     @Test
@@ -95,7 +95,7 @@ Okay, you need a library here, so lets declare it
     }
 
 
-* And you have to declare that method donate(Movie movie) with the IDE again in your production code.
+And you have to declare that method donate(Movie movie) with the IDE again in your production code.
 
 
     public class Library {
@@ -216,4 +216,4 @@ Every test should do just one thing, so create a separated one and let it run.
     
     }
 
-This is part two of the TDD kickstart beginner series. Here is part three.
+This is part two of the TDD kickstart beginner series. Here is part [part 3](https://redseacomputing.github.io/2021/TDD3-preparation-of-tests)

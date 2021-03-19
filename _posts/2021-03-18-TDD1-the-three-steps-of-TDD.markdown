@@ -60,4 +60,4 @@ Hint: If something changes, look first at your `test code`, don't edit it in you
 After each iteration, you should come back to your TestSuite and maintain your test code and/or your production code little bit, if necessary.
 This is the third step of the TDD cycle. For further reading you can check my refactoring series later.
 
-This is part one of the TDD kickstart beginner series. Here is part two.
+This is part one of the TDD kickstart beginner series. Here is [part 2](https://redseacomputing.github.io/2021/TDD1-the-three-steps-of-TDD).
