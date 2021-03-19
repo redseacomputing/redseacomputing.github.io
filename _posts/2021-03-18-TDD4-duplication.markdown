@@ -23,12 +23,10 @@ sort to see what the pattern is here, yet we have to see the patterns.
 
 You operate on a design principal called "The rule of three".
 It helps you to see the mentioned patterns and it helps you to not getting to late to eliminate duplication.
+
 >More duplication is harder to eliminate
 
-So you have to wait for three duplications and check what's going on.
-
-In software development we have finite time, so if something takes longer its less likely to happen.
-It's as simple as that. That's just the way the world works.
+So you have to wait for **exactly** three duplications and check what's going on.
 
 ## Handle duplication with parameterized tests
 
@@ -36,7 +34,7 @@ You can use little helper methods to maintain your test code.
 If there are a lot of similiar test cases, you can use parameterized tests.
 Check the documentation from your test framework of choice. 
 
-Naming of parameterized tests:
+Naming of parameterized tests:<br>
 Describe the rule, and not the example. So it is reading it more like a specification.
 This is like a double win.
 
