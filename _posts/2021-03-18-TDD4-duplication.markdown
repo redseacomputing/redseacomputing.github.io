@@ -11,36 +11,39 @@ permalink: /:year/:title
 
 Duplicate code is the opposite of reuse. When you remove duplication, you end up
 introducing reusable abstractions. From a design point of view,
-duplication in your code is very interesting.
+duplication is very interesting.
 
->You should pay particular attention to that when you're refactoring after passing each test.
+#### Hint: Refactor duplication
+>Pay attention to duplication when you are refactoring after each test.
+Eliminate obvious duplication and don't wait to get more of it.
+More duplication is harder to eliminate.
 
 ## When do we remove the duplication?
+
+What is better? Windows or Linux? <br>In general, it depends on.
+
+And it is here the same with duplication
+during your development process.
 It's important not to jump in too early. The risk when you refactor code to
-create abstractions, is that you end up introducing the wrong abstractions.
-That happen very often because we haven't seen enough examples to really just
-sort to see what the pattern is here. Yet we have to see the patterns.
+create abstractions, ends you up introducing the wrong abstractions.
+That would be a brief form of ["You ain't gonna need it"](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it).
 
-You operate on a design principal called "The rule of three".
-It helps you to see the mentioned patterns and it helps you to not getting to late to eliminate duplication.
-
->More duplication is harder to eliminate
+You operate on a design principal called ["The rule of three"](https://en.wikipedia.org/wiki/Rule_of_three_%28computer_programming%29).
+It helps you to see patterns, and it helps you to not getting too late to eliminate duplication.
 
 So you have to wait for **exactly** three duplications and check what's going on.
 
-### Hint: Eliminate obvious duplication and don't wait to get more of it.
-
-## Handle duplication with parameterized tests
+## Handle duplication in your test suite with parameterized tests
 
 You can use little helper methods to maintain your test code.
-If there are a lot of similiar test cases, you can use parameterized tests.
+If there are a lot of similar test cases, you can use parameterized tests.
 Check the documentation from your test framework of choice. 
 
 Naming of parameterized tests:<br>
-Describe the rule, and not the example. So it is reading it more like a specification.
-This is like a double win.
+Describe the rule, and not the example. So reading it is more likely a specification.
 
-At last, that when you refactor, you can refactor as long as you can to write meaningful names
+#### Hint: Naming
+At last, that when you refactor, you can refactor as long as you can, to write meaningful names
 to methods, so the code will become really easy to read.
 
-This is part four of the TDD kickstart beginner series. Here is part [part 5](https://redseacomputing.github.io/2021/TDD5)
+This is part four of the TDD kickstart beginner series. Here is [part 5](https://redseacomputing.github.io/2021/TDD5-inside-out-and-outside-in)

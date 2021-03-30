@@ -25,12 +25,24 @@ Act performs the action that you are testing on the unit.
 Assert checks to see that the action performed correctly. You want to check that 
 either the return value of a method call is expected, or the state of an object is as expected.
 
+    @Test
+    public void thisTestShouldBeStructured(){
+        //Arrange
+        Student student = new Student("John Doe");
+        //Act
+        student.setName("Jane Doe");
+        //Assert
+        assertEquals("Jane Doe", student.getName());
+    }
+
+
 ## Hints
 Here are 3 hints for effectiveness and sustainability.
 Let's use a DVD-library example.
 
 ### Hint 1: Don't make the set up first. Start with the assertion in the tests.
-Ask the question first (Is the movie in the catalogue of the library?)
+#### Ask the question first: <br>
+Is the movie in the catalogue of the library?
 
 
 
@@ -41,9 +53,9 @@ Ask the question first (Is the movie in the catalogue of the library?)
 
 
 
-Working back from the setup that asks the question <br>
+#### Working back from the setup that asks the question: <br>
   
-Okay, you need a library here, so lets declare it
+Okay, you need a library here, so lets declare it.
 
 
     @Test
@@ -52,7 +64,7 @@ Okay, you need a library here, so lets declare it
         assertTrue(library.getCatalogue().contains(movie));    
     }
 
-Create the production class Library with IDE from your test case
+Create the production class Library with IDE from your test case.
 
 
 
@@ -62,7 +74,7 @@ Create the production class Library with IDE from your test case
 
 
 
-Okay, you have to implement the method getCatalogue() from your test case
+Okay, you have to implement the method getCatalogue() from your test case.
 
 
     public class Library {
@@ -72,7 +84,7 @@ Okay, you have to implement the method getCatalogue() from your test case
         }
     }
 
-Create the production class Movie with IDE from test case and maintain your test specification
+Create the production class Movie with IDE from test case and maintain your test specification.
 
 
     @Test
@@ -113,7 +125,7 @@ And you have to declare that method donate(Movie movie) with the IDE again in yo
 You are referencing things that don't exist yet, and then you're working your way backwards
 from the references to the declaration.
 The reference come first and this is very much the essence of test driven development.
-You **refer to things** in a test and that forces you to declare it. Therefor it is **test driven** in a very strict way.
+You **refer to things** in a test and that forces you to declare it. Therefore, it is **test driven** in a very strict way.
 And that means that you end up with the exact set up, that you need to ask the question that you want to ask.
 
 Sometimes I have written the set up and then got to write the assertion where
@@ -128,14 +140,14 @@ It is all about the question you want to ask and this is the most important thin
 
 Some teams got 100 percent test coverage, because it is clear.
 Important is here, not to write just 100 percent test coverage with dumbass assertTrue's.
-It is important to write the right tests (with meaningful and the right questions) AND check that they are failing.
+It is important to write the right tests (with meaningful and the right questions) **and** check that they are failing.
 
 If you would run the test from this example it would fail. But lets look why is it failing.
 It's failing because of a NullPointerException.
 You are trying to check if an object is in a collection that's actually null.
 
 What you really want to know (at exactly this point) is: If the results of this test are wrong, would this test fail?
-You dont want to see it fail because of some unhandled exception. You want to see what happens if the
+You dont want to see it fail because of some unhandled exception or something else. You want to see exactly what happens if the
 donated movie is not in the catalogue.
 
 So for now let's just return an empty ArrayList.
@@ -152,26 +164,29 @@ So for now let's just return an empty ArrayList.
     }
 
 When you are run the test again, the test result is saying you now an Assertion-Error. So thats the point of hint 2:
->Before you write the code to pass the test, *see the test fail**.
->**You are testing your test** before you make it pass
 
-You can going forward and have confidence in your unit tests, if someone broke this code as they change it in the future,
-this test would actually catch it if this part of it got broken.
+Before you write the code to pass the test, **see the test fail**.
+**You are testing your test** before you make it pass
+
+You can go forward and have confidence in your unit tests. If someone works on it in the future,
+this test would immediately indicate that something was going in the wrong direction.
 
 As a conclusion of the first two chapters:
-Experienced programmers mentioned about test suites with all passing tests but the production code was hopelessly broken.
-If you are asking high quality questions and check your own tests you have more confidence in your unit tests
-and they are going forward as regression tests too.
+Experienced programmers criticized test suites with passing tests, but the production code was hopelessly broken.
+If you are asking high quality questions and check your own tests, you have more confidence in your unit tests, and 
+they are going forward as regression tests too.
 
 The interested reader is invited to let the test pass.
 
 When you are looking at your test suite now, there is a little code smell. You find here a so called message chain.
-Thats when you're navigating through a relationship to one object to the next object in the chain.
+That's when you're navigating through a relationship to one object to the next object in the chain.
 This breaks a principle called "The law of demeter".
 
 In this case you have unencapsulated this list in your assertion. Your client code knows that it's a collection
-and thats a little messy. We like encapsulation and are big fans of it.
-So lets encapsulate this-> extract a method of it and call it contains() and move it to the Library class.
+and that's a little messy. We like encapsulation and are big fans of it.<br>
+So lets encapsulate this:<br> 
+Extract a method of it and call it contains() and move it to the Library class.
+
 Rerun your tests as soon as your refactoring.
 
 #### Next requirement
@@ -191,8 +206,8 @@ Let's think about the specification/test and implement it:
 
 ### Hint 3: Test one thing per test
 
-The next refactoring should be done. Whats really wrong with your production code, if the test fails?
-Every test should do just one thing, so create a separated one and let it run.
+The next refactoring should be done. What's really wrong with your production code, if the test fails?
+Every test should do just one thing, so create a separate one and let it run.
 
     public class DonateMovieTest {
     
@@ -218,4 +233,10 @@ Every test should do just one thing, so create a separated one and let it run.
     
     }
 
-This is part two of the TDD kickstart beginner series. Here is part [part 3](https://redseacomputing.github.io/2021/TDD3-preparation-of-tests)
+
+Perhaps everyone will now say that this is far too expensive for so little code.
+Because the advantages tend to emerge in the long term: <br>
+>By constantly refactoring in small steps, you get a maintainable
+product that is readable and therefore more cost-effective.
+
+This is part two of the TDD kickstart beginner series. Here is [part 3](https://redseacomputing.github.io/2021/TDD3-preparation-of-tests)

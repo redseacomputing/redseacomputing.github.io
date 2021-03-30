@@ -14,20 +14,20 @@ permalink: /:year/:title
 The cycle of test driven development contains three steps:
 
 1. You start by writing a test that fails, which describes something you want your code
-to do that it currently doesn't.
+to do that currently doesn't.
 
-2. Then you write the simplest thing you can think of to get that test passing to the simplest quickest thing
+2. Then you write the simplest thing you can think of, to get that test passing
 that comes into your mind.
 
-3. If necessary, you refactor the code so that going forward that the code is going to be as easy to change
+3. If necessary, you refactor that the code is going to be as easy to change
 as possible. You look here for code that is hard to understand, for problems with complexity or duplication
-or dependencies. Its the refactoring step where a lot of the design in TDD happens.
+or dependencies. It's the refactoring step where a lot of the design in TDD happens.
 
-> TDD is driving the design and development of your code using tests as your specification
+> TDD drives design and development of code using tests as your specification
 
 Let`s use an example with a shopping basket.
-You start by writing a test. Not the ShoppingBasket class.
-And start with the simplest test case you imagine of the ShoppingBasketTest class (an empty ShoppingBasket).
+You start by writing a test. Not the ShoppingBasket.class.
+Start with the simplest test case you imagine of the ShoppingBasketTest.class (an empty ShoppingBasket).
 
     @Test
     void totalOfEmptyBasket() {
@@ -35,8 +35,8 @@ And start with the simplest test case you imagine of the ShoppingBasketTest clas
         assertEquals(0.0d, basket.getTotalAmount(), 0.0d);
     }
 
-Thats how TDD works. You dont write a Production-Code class.
-First, you write a test that use a (non-existent) ProductionCode class,
+That's how TDD works. You don't write a Production-Code class.
+First, you write a test that use a (non-existent) Production-Code class,
 and then you implement that class.
 With each test, you make just a few design decisions **and then you
 write the code that this test requires.**
@@ -55,7 +55,7 @@ Here are some following tests for the interested reader as an exercise.
 
 Hint: If something changes, look first at your **test code**, don't edit it in your production code unnecessarily!
 
-> If you are looking at your tests that runs correctly, these are your specification steps of your software solution that are up and running now.
+> If you are looking at your tests now, these are your specification steps of your software solution that are up and running now.
 
 After each iteration, you should come back to your TestSuite and maintain your test code and/or your production code little bit, if necessary.
 This is the third step of the TDD cycle. For further reading you can check my kickstart refactoring series later.
