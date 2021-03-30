@@ -106,8 +106,14 @@ basically going through the API (the go() method).
 
 #### Disadvantages
 * It is not a comprehensive test coverage possible
+<br>
+<br>
+<br>
 
 >I recommend this interesting article on Outside-In from [Merciless refactorer- Gregor Riegler](https://gregorriegler.com).
 
+<br>
+<br>
+<br>
 
 This is part five of the TDD kickstart beginner series. Here is [part 6](https://redseacomputing.github.io/2021/TDD6-test-doubles)
