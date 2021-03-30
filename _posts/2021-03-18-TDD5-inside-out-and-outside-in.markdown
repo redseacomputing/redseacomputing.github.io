@@ -49,7 +49,7 @@ So, a Mars Rover possibly can:
         void toHomebase(){
             //Implementation here
         }
-        void validatePower(){
+        int validatePower(){
             //Implementation here
         }
 
@@ -72,10 +72,11 @@ and then you are going to put the jigsaw together to create a method that execut
 with your internal parts.
 
 #### Advantages
-You clearly see where the code is broken or messed up.
+* You clearly see where the code is broken or messed up.
 
 #### Disadvantages
-It more close couples your tests to your internal design (your code) and unencapsulates it.
+* It more close couples your tests to your internal design (your code) and unencapsulates it.
+* It is possible that your internal parts does not perfectly fittes together.
 
 > In a multi-layered design, you can end up with Inside-Out in the debugger more often you probably would like.
 
@@ -96,8 +97,15 @@ B... move backward
         assertEquals(1, rover.getYCoordinate());
     }
 
-In this approach, all tests are written on that level. They are all
-basically going through the API (through the go() method).
+In this approach, all tests are written on that level (client side). They are all
+basically going through the API (the go() method).
+
+#### Advantages
+* The tests does not have to be maintained that much.
+* It low couples the tests from production code
+
+#### Disadvantages
+* It is not a comprehensive test coverage possible
 
 >I recommend this interesting article on Outside-In from [Merciless refactorer- Gregor Riegler](https://gregorriegler.com).
 
