@@ -81,8 +81,8 @@ It more close couples your tests to your internal design (your code) and unencap
 
 ### Outside in Design
 
-The kind of the API to our Mars rover is a method call to go that
-accepts a sequence of character instructions are for
+The kind of the API to your Mars rover is a method call that
+accepts a sequence of character instructions:
 L... turning left
 R... turning right
 F... move forward
@@ -99,8 +99,7 @@ B... move backward
 In this approach, all tests are written on that level. They are all
 basically going through the API (through the go() method).
 
->There is an article on Inside-Out and Outside-In from [Merciless refactorer- Gregor Riegler](https://gregorriegler.com)
-I recommend for further reading.
+>I recommend this interesting article on Outside-In from [Merciless refactorer- Gregor Riegler](https://gregorriegler.com).
 
 
 This is part five of the TDD kickstart beginner series. Here is [part 6](https://redseacomputing.github.io/2021/TDD6-test-doubles)
