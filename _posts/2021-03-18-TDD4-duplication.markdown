@@ -20,7 +20,7 @@ More duplication is harder to eliminate.
 
 ## When do we remove the duplication?
 
-What is better? Windows or Linux? <br>In general, it depends on.
+>What is better? Windows or Linux? ----> In general, it depends on.
 
 And it is here the same with duplication
 during your development process.

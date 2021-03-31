@@ -43,6 +43,7 @@ Receiving stock from a label
 
 Now you can move forward and triangulate you're TDD-cycle over 
 you're testlist as a checklist that comes directly from the specification.
+You end up with the **exact implementation** of the customers requirement. 
 
 #### Hint: Obvious implementations 
 >During your TDD-cycle, it is not necessary to triangulate many rotations on obvious implementation details.
