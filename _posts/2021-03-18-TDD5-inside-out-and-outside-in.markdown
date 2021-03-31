@@ -110,7 +110,7 @@ basically going through the API (the go() method).
 <br>
 <br>
 
->I recommend this interesting article on Outside-In from [Merciless refactorer- Gregor Riegler](https://gregorriegler.com).
+>I recommend this interesting article "Peeling an onion" on the Outside-In-TDD Mikado technique from [Merciless refactorer- Gregor Riegler](https://gregorriegler.com).
 
 <br>
 <br>
