@@ -8,7 +8,7 @@ permalink: /:year/:title
 
 ![test doubles in multi-layered architectures](../images/TDD6-test-doubles.png)
 
-##Advantages of TDD approaches with Test doubles in multi-layered architectures
+## Advantages of TDD approaches with Test doubles in multi-layered architectures
 
 In my last post we discussed the different approaches of TDD. Unfortunately, it doesn't always stay that simple. 
 What if we have external collaborators as dependencies, which are possibly expensive, and above all, of which we do not even know the internals?
@@ -20,7 +20,11 @@ external dependencies (a network or a database connection for example), which we
 We don't want to call these resources over and over again in our tests. 
 We are only interested in knowing how our units handle them.
 
+<br>
+
 >Fakes make Dependencies swappable by Dependency Injection
+
+<br>
 
 Let's use an example to illustrate this.
 
