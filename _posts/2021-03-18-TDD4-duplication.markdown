@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TDD for kickstarters- part 4"
-date:   2021-03-20 00:04:00 +0100
+date:   2021-03-19 12:00:04 +0100
 categories: tdd java
 permalink: /:year/:title
 ---
@@ -16,14 +16,10 @@ duplication is very interesting.
 #### Hint: Refactor duplication
 >Pay attention to duplication when you are refactoring after each test.
 Eliminate obvious duplication and don't wait to get more of it.
-More duplication is harder to eliminate.
+More duplication is harder to eliminate. [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
 ## When do we remove the duplication?
 
->What is better? Windows or Linux? ----> In general, it depends on.
-
-And it is here the same with duplication
-during your development process.
 It's important not to jump in too early. The risk when you refactor code to
 create abstractions, ends you up introducing the wrong abstractions.
 That would be a brief form of ["You ain't gonna need it"](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it).

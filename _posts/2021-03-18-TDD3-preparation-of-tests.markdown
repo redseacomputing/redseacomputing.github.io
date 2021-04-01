@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TDD for kickstarters- part 3"
-date:   2021-03-20 00:03:00 +0100
+date:   2021-03-19 12:00:03 +0100
 categories: tdd java
 permalink: /:year/:title
 ---

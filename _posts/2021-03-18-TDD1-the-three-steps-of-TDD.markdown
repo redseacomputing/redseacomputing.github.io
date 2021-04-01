@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TDD for kickstarters- part 1"
-date:   2021-03-20 00:01:00 +0100
+date:   2021-03-19 12:00:01 +0100
 categories: tdd java
 permalink: /:year/:title
 ---
@@ -36,7 +36,7 @@ Start with the simplest test case you imagine of the ShoppingBasketTest.class (a
     }
 
 That's how TDD works. You don't write a Production-Code class.
-First, you write a test that use a (non-existent) Production-Code class,
+First, you write a test that uses a (non-existent) Production-Code class,
 and then you implement that class.
 With each test, you make just a few design decisions **and then you
 write the code that this test requires.**
