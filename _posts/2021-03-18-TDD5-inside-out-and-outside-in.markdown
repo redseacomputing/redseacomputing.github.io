@@ -6,7 +6,7 @@ categories: tdd java
 permalink: /:year/:title
 ---
 
-![design from point of view](../images/TDD5-design-from-point-of-view.png)
+![design from point of view](../images/TDD/TDD5-design-from-point-of-view.png)
 
 ## Design from your point of view
 

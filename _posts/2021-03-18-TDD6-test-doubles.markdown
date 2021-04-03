@@ -6,7 +6,7 @@ categories: tdd
 permalink: /:year/:title
 ---
 
-![test doubles in multi-layered architectures](../images/TDD6-test-doubles.png)
+![test doubles in multi-layered architectures](../images/TDD/TDD6-test-doubles.png)
 
 ## Advantages of TDD approaches with Test doubles in multi-layered architectures
 

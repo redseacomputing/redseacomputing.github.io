@@ -6,7 +6,7 @@ categories: tdd java
 permalink: /:year/:title
 ---
 
-![structure of an unit test](../images/TDD2-structure-of-unit-tests.png)
+![structure of an unit test](../images/TDD/TDD2-structure-of-unit-tests.png)
 
 # The structure of a test
 

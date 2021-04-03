@@ -6,7 +6,7 @@ categories: tdd java
 permalink: /:year/:title
 ---
 
-![redsea logo](../images/TDD1-tdd-cycle.png)
+![redsea logo](../images/TDD/TDD1-tdd-cycle.png)
 
 
 

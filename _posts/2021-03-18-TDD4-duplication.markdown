@@ -5,7 +5,7 @@ date:   2021-03-19 12:00:04 +0100
 categories: tdd java
 permalink: /:year/:title
 ---
-![duplication](../images/TDD4-duplication.png)
+![duplication](../images/TDD/TDD4-duplication.png)
 
 ## Relationship between Duplication and Design
 

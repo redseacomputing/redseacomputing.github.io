@@ -6,7 +6,7 @@ categories: tdd java
 permalink: /:year/:title
 ---
 
-![preparation of unit tests](../images/TDD3-preparation-of-unit-tests.png)
+![preparation of unit tests](../images/TDD/TDD3-preparation-of-unit-tests.png)
 
 # Tests to write
 
