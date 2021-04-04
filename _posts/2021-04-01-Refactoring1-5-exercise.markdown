@@ -1,6 +1,9 @@
 ---
-layout: post title:  "Refactor kickstarter series- Repetition"
-date:   2021-03-31 12:00:05 +0100 categories: refactoring permalink: /:year/:title
+layout: post 
+title:  "Refactor kickstarter series- Repetition"
+date:   2021-03-31 12:00:05 +0100 
+categories: refactoring 
+permalink: /:year/:title
 ---
 
 ![Summary part 1](../images/Refactoring/Refactor-exercise-part-one.png)
