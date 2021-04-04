@@ -8,13 +8,15 @@ permalink: /:year/:title
 
 ![Summary](../images/Refactoring/Refactor-summary.png)
 
-We have seen that TDD can bring us a decisive advantage:
-Refactoring not only enables us to minimize the number of lines of code. 
-The even greater and decisive benefit is, that we can shape and knead our software solution as we need it. That keeps us agile.
+You have seen that TDD can bring you a decisive advantage:
+Refactoring not only minimize the number lines of code. 
+The even greater and decisive benefit is, that you are able to shape and knead your software solution as you need it. 
 
-In order to develop production code, we reference from tests.
+>That keeps us agile
 
-It is not uncommon for us to find untested code. 
-Often production code is developed and then the "annoying" tests are quickly added at the end.
+In order to develop production code, you reference from tests.
+
+It is not uncommon for us to find untested code.
+Often production code is developed and the "annoying" tests are added quickly afterwards.
 
 So it is that we refer from production code to a test suite. And this is exactly the topic of the next blog: [Working on legacy code](https://redseacomputing.github.io/2021/Legacy-Code-introduction).
