@@ -7,7 +7,6 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Comment](../images/Refactoring/Refactor-comment.png)
 

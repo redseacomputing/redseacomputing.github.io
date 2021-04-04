@@ -7,13 +7,15 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
+
 
 ![Data class](../images/Refactoring/Refactor-data-class.png)
 <br>
 
 The next code smell in your code could be on data classes. 
 Data classes have fields with getters and setters, but no behaviour.
+<br>
+
 One of the goals of object oriented design is to put the behaviour where the data is.
 That low couples your components and supports ["Tell, don't ask"](http://principles-wiki.net/principles:information_expert).
 

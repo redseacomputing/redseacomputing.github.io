@@ -7,16 +7,13 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Message Chain](../images/Refactoring/Refactor-message-chain.png)
 <br>
 
 Here is a hidden message chain in this code. But technically it's the same as before.
-
+Eliminate it.
 <br>
-
-
 
     public class Invoice {
         private 

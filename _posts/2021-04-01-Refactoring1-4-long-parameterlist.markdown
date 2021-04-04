@@ -7,7 +7,6 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Long parameter list](../images/Refactoring/Refactor-long-parameter-list.png)
 

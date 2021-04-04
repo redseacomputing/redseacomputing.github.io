@@ -7,12 +7,11 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Divergent Change](../images/Refactoring/Refactor-divergent-change.png)
 
 
-It is not ideal to have a delegate method on the account class.
+It is not always ideal to conduct a refactoring with delegation.
 Split it completely, that the account class has no knowledge at all of the xml serialization as a result.
 
     

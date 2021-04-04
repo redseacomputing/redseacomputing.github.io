@@ -7,22 +7,20 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Lazy Class](../images/Refactoring/Refactor-lazy-class.png)
 
-<br>
 
-Lazy classes are just classes that arent doing enough to justify their existence
-(in terms of the maintenance overhead).
+Lazy classes are classes that aren't doing enough to justify their existence. Would there be an extension
 
 At the example, we've got an address class and instead of having a postcode field, there's
-a postcode object, which is defined by the other class that has very little in it
-and very little behavior to work out the postcode area.
+a postcode object.
 
-Solution:
-To refactor this, you are going to essentially move the fields and methods of postcode into
-the address class (Inline the postcode class into its container which is address).
+If you were to prepare the code for a foreseen feature that constitutes Postcode, you could leave it as it is.
+Otherwise, you should eliminate it immediately as it unnecessarily increases maintenance overhead.
+
+Move the fields and methods of postcode into
+the address class.
 
     public class AddressTests{
 

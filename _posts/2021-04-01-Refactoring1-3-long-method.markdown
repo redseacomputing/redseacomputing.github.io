@@ -7,7 +7,6 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Long method](../images/Refactoring/Refactor-long-methods.png)
 

@@ -7,17 +7,14 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Message Chain](../images/Refactoring/Refactor-message-chain.png)
 <br>
 
-Message Chains violates the law of demeter, which is in short: 
-Objects should only interact with their nearest neighbours, because message chains 
-increase the dependencies through the system.
+Message Chains violates the [law of demeter](https://en.wikipedia.org/wiki/Law_of_Demeter).
+They increase the dependencies through the system.
 
-In short, they are bad from the dependence's standpoint.
-
+<br>
 
 
     class InvoiceTest {
@@ -79,6 +76,11 @@ In short, they are bad from the dependence's standpoint.
 
 
 <br>
+
+>Hint: Objects should only interact with their nearest neighbours
+
+<br>
+
 
 You can fork it [here](https://github.com/redseacomputing/Refactoring_MessageChain1) from Github.
 

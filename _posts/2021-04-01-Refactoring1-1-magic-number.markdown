@@ -6,7 +6,6 @@ categories: refactoring
 permalink: /:year/:title
 ---
 ## Code Smell of the year
-<br>
 
 ![Magic number](../images/Refactoring/Refactor-magic-number.png)
 

@@ -7,20 +7,19 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-<br>
 
 ![Divergent change](../images/Refactoring/Refactor-divergent-change.png)
 <br>
 
 The divergent change code smell comes into play when classes have more than 
-one distinct responsibilitie (and more than one reason to change).
+one reason to change.
 
-This is a violation of the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) on class level.
+This is a violation of the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) of the next abstraction level.
 
 This example has a class which handles operations on a bank account(credit, debit,..),
 but it also has a method for serializing the data to XML string format.
 
-If the format would be changed, you have to go in and edit your account class.
+If the format would be changed, you have edit it in your account class.
 
 Extract such behaviour to an own class and delegate to it.
 
