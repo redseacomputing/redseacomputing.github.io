@@ -116,8 +116,9 @@ You can fork it [here](https://github.com/redseacomputing/Refactoring_Comment) f
 
 <br>
 
->Hint: Use the button of dreams and use your test suite after every refactoring.
+>Hint: Use "the button of your dreams" and use your test suite after every refactoring step.
 
 <br>
+
 This was part one of the Refactoring kickstart beginner series.
 Here is [part 2](https://redseacomputing.github.io/2021/Refactoring2-0-introduction).
