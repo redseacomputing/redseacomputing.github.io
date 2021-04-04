@@ -75,7 +75,6 @@ You can fork it [here](https://github.com/redseacomputing/Refactoring_Comment) f
     
         @Test
         void debit100AndCredit100ShouldReturnZero() {
-            Account account = new Account();
             account.debit(100);
             account.credit(100);
             assertEquals(0, account.getBalance(), 0.01);
