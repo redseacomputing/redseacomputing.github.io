@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Refactoring for kickstarters- Lazy Class"
+title:  "Refactoring for kickstarters- Lazy Class 1"
 date:   2021-04-04 12:00:06 +0100
 categories: refactoring
 permalink: /:year/:title

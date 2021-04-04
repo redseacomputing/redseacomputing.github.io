@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Refactoring for kickstarters- Message Chain"
+title:  "Refactoring for kickstarters- Message Chain 2"
 date:   2021-04-04 12:00:02 +0100
 categories: refactoring
 permalink: /:year/:title
