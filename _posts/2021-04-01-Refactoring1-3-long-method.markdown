@@ -22,7 +22,7 @@ It would be a mess to invoke a low level (e.g.: the operating file system) and a
 function (a collection in your main memory) in the same piece of code.
 Inspect the code inside the method. What is it really doing?
 
-Your indicator could be a method name with AND in there, like e.g.: getDataFromFilesystemAndValidateIt().
+Your indicator could be a method name with AND in there, like e.g.: `getDataFromFilesystemAndValidateIt().
 
 <br>
 Break the code into smaller pieces. Extract everything out of it to use it afterwards.
