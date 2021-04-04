@@ -19,4 +19,4 @@ In order to develop production code, you reference from tests.
 It is not uncommon for us to find untested code.
 Often production code is developed and the "annoying" tests are added quickly afterwards.
 
-So it is that we refer from production code to a test suite. And this is exactly the topic of the next blog: [Working on legacy code](https://redseacomputing.github.io/2021/Legacy-Code-introduction).
+We refer from production code to a test suite. And this is exactly the topic of the next blog: [Working on legacy code](https://redseacomputing.github.io/2021/Legacy-Code-introduction).
