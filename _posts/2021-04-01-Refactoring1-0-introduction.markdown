@@ -20,4 +20,4 @@ we continuously improve the design with refactoring in small steps.
 
 Okay, refactoring allows us to significantly tune our design during our development work. But what exactly should we refactor now?
 
-Let's take a look at the Refactor kickstarter series with the [Code Smell of the years](https://redseacomputing.github.io/2021/Refactoring1-1-magic-numberMagic_Numbers).
+Let's take a look at the Refactor kickstarter series with the [Code Smell of the years](https://redseacomputing.github.io/2021/Refactoring1-1-magic-number).
