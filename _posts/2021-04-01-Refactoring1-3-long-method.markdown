@@ -30,7 +30,7 @@ Break the code into smaller pieces. Extract everything out of it to use it after
 <br>
 
 >
->Keep in mind that there is no technical modification of the code during the refactoring step.
+>Hint: Keep in mind that there is no technical modification of the code during the refactoring step.
 >
 
 <br>

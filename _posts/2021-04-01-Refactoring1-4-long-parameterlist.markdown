@@ -21,10 +21,14 @@ Keep an eye on them.
 
 <br>
 
-    private String buildCustomerSummary(String customerFirstName, String customerLastName,String customerTitle, Address address){
+    private String buildCustomerSummary(String customerFirstName, 
+                                        String customerLastName,
+                                        String customerTitle, 
+                                        Address address){
         return customerTitle + " " + customerFirstName + " " + " " customerLastname + " " + address.getCity() + " " +
                 address.getPostCode() + " " + address.getCountry();
     }
+
 <br>
 
 Create an object from the parameters and use it to pass it to the function.

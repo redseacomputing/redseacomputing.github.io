@@ -9,8 +9,9 @@ permalink: /:year/:title
 ![Summary part 1](../images/Refactoring/Refactor-exercise-part-one.png)
 <br>
 
-Pay attention to the `debit(float amount)` function in following code snippet. Feel free to copy and paste it in your editor of choice or fork it directly 
-from [Github](https://github.com/redseacomputing/Refactoring_Comment).
+Pay attention to the `debit(float amount)` function in following code snippet. 
+You can fork it [here](https://github.com/redseacomputing/Refactoring_Comment) from Github.
+
 <br>
 
     public class Account{
@@ -115,5 +116,8 @@ from [Github](https://github.com/redseacomputing/Refactoring_Comment).
 
 <br>
 
-This was part one of the Refactoring kickstart beginner series. Here
-is [part 2](https://redseacomputing.github.io/2021/Refactoring2-0-introduction).
+>Hint: Use the button of dreams and use your test suite after every refactoring.
+
+<br>
+This was part one of the Refactoring kickstart beginner series.
+Here is [part 2](https://redseacomputing.github.io/2021/Refactoring2-0-introduction).
