@@ -1,15 +1,17 @@
 ---
 layout: post 
-title:  "Refactor kickstarter series- Repetition"
+title:  "Refactoring for kickstarters- Exercise"
 date:   2021-03-31 12:00:05 +0100 
 categories: refactoring 
 permalink: /:year/:title
 ---
 
 ![Summary part 1](../images/Refactoring/Refactor-exercise-part-one.png)
+<br>
 
 Pay attention to the `debit(float amount)` function in following code snippet. Feel free to copy and paste it in your editor of choice or fork it directly 
 from [Github](https://github.com/redseacomputing/Refactoring_Comment).
+<br>
 
     public class Account{
     
@@ -110,6 +112,8 @@ from [Github](https://github.com/redseacomputing/Refactoring_Comment).
             assertNotNull(account.getLastDebitDate() );
         }
     }
+
+<br>
 
 This was part one of the Refactoring kickstart beginner series. Here
 is [part 2](https://redseacomputing.github.io/2021/Refactoring2-0-introduction).
