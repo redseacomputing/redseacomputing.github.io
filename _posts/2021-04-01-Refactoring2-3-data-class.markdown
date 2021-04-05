@@ -64,5 +64,6 @@ So put methods that act on fields in the same class that contain those fields.
 
 You can fork it [here](https://github.com/redseacomputing/Refactoring_DataClass) from Github.
 
+>Hint: Pay attention to possible refactoring steps in your test suite
 
 This is step three of the second part of the Refactoring kickstart beginner series. Here is [step 4](https://redseacomputing.github.io/2021/Refactoring2-4-divergent-change).
