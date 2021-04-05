@@ -24,7 +24,6 @@ The effort of this approach pays off the larger a software product becomes.
 Because then you catch up with the development time immensely and develop continuously, and
 you are able to shape and knead your software solution as you need it.
 
-
 >That keeps you agile
 
 In order to develop and refactor production code, you reference from tests.
