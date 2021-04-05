@@ -37,7 +37,6 @@ So put methods that act on fields in the same class that contain those fields.
     }
 
 
-
     public class Customer {
     
         private String title;
