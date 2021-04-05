@@ -13,11 +13,11 @@ permalink: /:year/:title
 
 Legacy code is expensive to change.
 The system grows and grows, and at some point no one dare to make changes
-anymore. A result is a system were just maintenance on a low level
-like fixing bugs are common.
+anymore. A result is a system with only low level maintenance operations
+like fixing bugs.
 
-Legacy systems can become a millstone around a business's neck. They can hold 
-us back from being innovative.
+Legacy systems can become a millstone around a business's neck. **They can hold 
+us back from being innovative**.
 
 >A legacy system is a problem of the business
 
