@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Legacy Code for kickstarters"
+title:  "Legacy Code"
 date:   2021-04-05 12:00:00 +0100
 categories: legacy code tdd refactoring
 permalink: /:year/:title
