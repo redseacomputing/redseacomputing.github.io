@@ -11,7 +11,7 @@ permalink: /:year/:title
 
 # Code in operation
 
-Legacy code is code in operation and expensive to change.
+Legacy code is code in operation whose expensive and risky to change.
 The system grows and grows, and at some point no one dare to make changes
 anymore. A result is a system with only low level maintenance operations
 like fixing bugs.
@@ -28,7 +28,6 @@ Sure, it's their problem, but...
 about this, and also to maintain their product to the best of your knowledge.
 > 
 >That's why they hired you.
-
 
 
 ### What makes it so difficult to change?
