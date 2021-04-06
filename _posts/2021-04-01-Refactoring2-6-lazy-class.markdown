@@ -11,7 +11,7 @@ permalink: /:year/:title
 ![Lazy Class](../images/Refactoring/Refactor-lazy-class.png)
 
 
-Lazy classes are classes that aren't doing enough to justify their existence. Would there be an extension
+Lazy classes are classes that aren't doing enough to justify their existence.
 
 At the example, we've got an address class and instead of having a postcode field, there's
 a postcode object.
