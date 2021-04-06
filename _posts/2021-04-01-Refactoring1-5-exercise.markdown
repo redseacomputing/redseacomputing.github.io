@@ -8,7 +8,7 @@ permalink: /:year/:title
 
 ![Summary part 1](../images/Refactoring/Refactor-exercise-part-one.png)
 <br>
-
+ 
 Pay attention to the `debit(float amount)` function in following code snippet. 
 You can fork it [here](https://github.com/redseacomputing/Refactoring_Comment) from Github.
 

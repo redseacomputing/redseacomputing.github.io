@@ -10,7 +10,7 @@ permalink: /:year/:title
 
 ![Switch statement](../images/Refactoring/Refactor-switch-statement.png)
 <br>
-
+ 
 Switch statements are dependency magnets. Eliminate them with a polymorphic solution.
 
 

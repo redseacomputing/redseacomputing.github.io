@@ -7,7 +7,7 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-
+ 
 
 ![Inappropriate Intimacy](../images/Refactoring/Refactor-inappropriate-intimacy.png)
 <br>

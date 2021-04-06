@@ -9,7 +9,7 @@ permalink: /:year/:title
 ## Code Smell of the year
 
 ![Divergent Change](../images/Refactoring/Refactor-divergent-change.png)
-
+ 
 
 It is not always ideal to conduct a refactoring with delegation.
 Split it completely, that the account class has no knowledge at all of the xml serialization as a result.

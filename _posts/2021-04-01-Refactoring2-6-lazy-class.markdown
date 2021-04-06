@@ -9,7 +9,7 @@ permalink: /:year/:title
 ## Code Smell of the year
 
 ![Lazy Class](../images/Refactoring/Refactor-lazy-class.png)
-
+ 
 
 Lazy classes are classes that aren't doing enough to justify their existence.
 

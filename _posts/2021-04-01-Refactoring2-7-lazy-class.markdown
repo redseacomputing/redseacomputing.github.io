@@ -7,7 +7,7 @@ permalink: /:year/:title
 ---
 
 ## Code Smell of the year
-
+ 
 
 ![Lazy Class](../images/Refactoring/Refactor-lazy-class.png)
 

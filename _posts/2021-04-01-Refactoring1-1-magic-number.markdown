@@ -8,7 +8,7 @@ permalink: /:year/:title
 ## Code Smell of the year
 
 ![Magic number](../images/Refactoring/Refactor-magic-number.png)
-
+ 
 <br>
 
 When you change your perspective on the screen from the development to the refactoring view, 

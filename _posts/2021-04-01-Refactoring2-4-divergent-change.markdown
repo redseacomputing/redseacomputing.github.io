@@ -10,7 +10,7 @@ permalink: /:year/:title
 
 ![Divergent change](../images/Refactoring/Refactor-divergent-change.png)
 <br>
-
+ 
 The divergent change code smell comes into play when classes have more than 
 one reason to change.
 

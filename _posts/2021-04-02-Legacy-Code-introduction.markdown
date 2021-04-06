@@ -7,7 +7,7 @@ permalink: /:year/:title
 ---
 
 ![Legacy Code](../images/Legacy Code/LegacyCode.png)
-
+ 
 
 # Code in operation
 

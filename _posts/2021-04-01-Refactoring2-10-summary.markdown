@@ -7,7 +7,7 @@ permalink: /:year/:title
 ---
 
 ![Summary](../images/Refactoring/Refactor-summary.png)
-
+ 
 
 
 We have seen that Refactoring not only reduce the number lines of code and make them readable.

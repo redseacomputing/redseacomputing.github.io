@@ -11,7 +11,7 @@ permalink: /:year/:title
 
 ![Data class](../images/Refactoring/Refactor-data-class.png)
 <br>
-
+ 
 The next code smell in your code could be on data classes. 
 Data classes have fields with getters and setters, but no behaviour.
 <br>

@@ -9,7 +9,7 @@ permalink: /:year/:title
 ## Code Smell of the year
 
 ![Long parameter list](../images/Refactoring/Refactor-long-parameter-list.png)
-
+ 
 <br>
 
 Too many parameters are difficult to read. 3 or 4 parameters should be the maximum.

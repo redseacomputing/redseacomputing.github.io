@@ -9,7 +9,7 @@ permalink: /:year/:title
 ## Code Smell of the year
 
 ![Comment](../images/Refactoring/Refactor-comment.png)
-
+ 
 <br>
 
 Comments indicate that the readability of the code is not as good as it could be. 

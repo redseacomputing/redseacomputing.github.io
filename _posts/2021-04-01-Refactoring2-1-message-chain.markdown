@@ -10,7 +10,7 @@ permalink: /:year/:title
 
 ![Message Chain](../images/Refactoring/Refactor-message-chain.png)
 <br>
-
+ 
 Message Chains violates the [law of demeter](https://en.wikipedia.org/wiki/Law_of_Demeter).
 They increase the dependencies through the system.
 

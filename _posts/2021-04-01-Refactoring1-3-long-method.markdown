@@ -9,7 +9,7 @@ permalink: /:year/:title
 ## Code Smell of the year
 
 ![Long method](../images/Refactoring/Refactor-long-methods.png)
-
+ 
 <br>
 
 Long methods mean large pieces that are reused. 

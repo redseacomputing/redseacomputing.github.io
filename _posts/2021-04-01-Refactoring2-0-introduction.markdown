@@ -7,7 +7,7 @@ permalink: /:year/:title
 ---
 
 ![Introduction](../images/Refactoring/Refactor-kickstarter-series.png)
-
+ 
 Congratulation! You can now simplify your code.
 It became more flexible on variable and method level.
 
