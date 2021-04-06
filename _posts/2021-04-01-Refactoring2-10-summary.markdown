@@ -20,7 +20,7 @@ We have seen that this requires a familiarization phase.
 In the beginning it takes comparatively forever, in contrast to conventional development methods.
 Just like with test-first, you will get faster and faster with targeted exercises.
 The effort of this approach pays off the larger a software product becomes.
-
+ 
 Because then you catch up with the development time immensely and develop continuously, and
 you are able to shape and knead your software solution as you need it.
 
